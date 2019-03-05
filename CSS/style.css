@@ -1,8 +1,28 @@
+.header{
+    font-size: 20px;
+    color: black;
+    align: center;
+    padding: 2px;
+}
 .title{
     font-size: 50px;
     color: grey;
     text-align: center;
 }
+
+.sectionTitle{
+    font-size: 35px;
+    color: black;
+    align: center;
+}
+
+.paragraph{
+    font-size: 14px;
+    color: black;
+    align: left;
+    padding: 2px;
+}
+
 
 .picture{
     width: 100%;
