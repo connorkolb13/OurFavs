@@ -1,9 +1,10 @@
 .header{
     font-size: 20px;
     color: black;
-    align: center;
+    text-align: center;
     padding: 2px;
 }
+
 .title{
     font-size: 50px;
     color: grey;
@@ -13,16 +14,15 @@
 .sectionTitle{
     font-size: 35px;
     color: black;
-    align: center;
+    text-align: center;
 }
 
 .paragraph{
     font-size: 14px;
     color: black;
-    align: left;
+    text-align: left;
     padding: 2px;
 }
-
 
 .picture{
     width: 100%;
