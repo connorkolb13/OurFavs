@@ -5,6 +5,10 @@
     padding: 2px;
 }
 
+.body{
+    background-color: grey;
+}
+
 .title{
     font-size: 50px;
     color: grey;
