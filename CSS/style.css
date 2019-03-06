@@ -5,8 +5,8 @@
     padding: 2px;
 }
 
-.body{
-    background-color: grey;
+.bg{
+    background-color: gold;
 }
 
 .title{
@@ -32,12 +32,3 @@
     width: 100%;
 }
 
-#canopic{
-    width: 100%;
-    border: solid black;
-    -webkit-animation: jar 10s infinite linear;
-
-    @-webkit-keyframes jar{
-        
-    }
-}
