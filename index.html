@@ -120,28 +120,55 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-4" class="paragraph">
+                Canopic Jars were the covered urns used to hold the organs and entrails of an embalmed body during
+                ancient Egytpian burials. Each jar represents one of Horus' four sons. Pretty nifty!
             </div>
-            <div class="col-4">
+            <div class="col-4" class="paragraph">
+                Union General John Sedgwick's last words were "They couldn't hit an elephant at this distance" before
+                promptly taking bullet to the head by a Confederate sharpshooter during the Battle of Spotyslvania
+                Courthouse.
             </div>
-            <div class="col-4">
+            <div class="col-4" class="paragraph">
+                Also known as the Dutchman's Pipe or Queen of the Night, this beautiful cactus has flowers that rarely
+                and only bloom and night, wilting away before dawn. What? Just because my last two were unorthadox
+                doesn't mean I don't have a side of me that enjoys pretty things.
             </div>
         </div>
-    </br>
-</br>
-</br>
+        </br>
+        </br>
+        </br>
         <div class="row">
             <div class="offset-4"></div>
             <div class="col-4">
-                <div class="header">And my most favoritest thing ever of all time...</div>
+                <div class="header">And my (debatably) most favoritest thing ever of all time...</div>
             </div>
             <div class="offset-4"></div>
         </div>
         <div class="row">
             <div class="offset-4"></div>
             <div class="col-4">
-                <img>
+                <img class="mySlides" src="images/bigO.jpg" style="width:100%">
+                <img class="mySlides" src="images/First_Place.jpg" style="width:100%">
+                <img class="mySlides" src="images/osterberg_lift.jpg" style="width:100%">
+                <img class="mySlides" src="images/mrO.jpg" style="width:100%">
             </div>
+            <script>
+                    var myIndex = 0;
+                    carousel();
+                    
+                    function carousel() {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      myIndex++;
+                      if (myIndex > x.length) {myIndex = 1}    
+                      x[myIndex-1].style.display = "block";  
+                      setTimeout(carousel, 2000); // Change image every 2 seconds
+                    }
+                    </script>
             <div class="offset-4"></div>
         </div>
 </body>
