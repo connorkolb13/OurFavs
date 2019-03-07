@@ -1,3 +1,33 @@
-#t_bg{
-    color: #12bded;
+.t_blue{
+    background-color: #12bded;
+}
+.semi-circle{
+    height: 20px;
+    width: 3425px;
+    background-color: #ffdd00;
+    border-top-left-radius: 100%;  
+    border-top-right-radius: 100%; 
+}
+
+.triangle{
+	width: 0px;
+	height: 0px;
+	border-left: 230px solid #ffdd00;
+	border-right: 50px solid transparent;
+	border-top: 155px solid transparent;
+}
+
+.triangle_back{
+	width: 0px;
+	height: 1px;
+	border-left: 230px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 170px solid #ffdd00;
+}
+.semi-circle_down{
+    height: 20px;
+    width: 3425px;
+    background-color: #ffdd00;
+    border-bottom-left-radius: 100%;  
+    border-bottom-right-radius: 100%; 
 }
