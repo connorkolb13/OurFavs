@@ -3,7 +3,7 @@
 }
 .semi-circle{
     height: 20px;
-    width: 3425px;
+    width: 3420px;
     background-color: #ffdd00;
     border-top-left-radius: 100%;  
     border-top-right-radius: 100%; 
@@ -26,7 +26,7 @@
 }
 .semi-circle_down{
     height: 20px;
-    width: 3425px;
+    width: 3420px;
     background-color: #ffdd00;
     border-bottom-left-radius: 100%;  
     border-bottom-right-radius: 100%; 
